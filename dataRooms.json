@@ -1,0 +1,246 @@
+{
+    "Town Square": {
+        "desc": "There's people from all around the kingdom here.",
+        "north": "Northern Town Street",
+        "south": "Church",
+        "east": "Eastern Town Street",
+        "ground": ["Fountain","Welcome Sign"]
+    },
+    "Northern Town Street": {
+        "desc": "You can see shops for all sorts of stuff.",
+        "north": "Town Gates",
+        "south": "Town Square",
+        "east": "Small Shop",
+        "ground": []
+    },
+    "Eastern Town Street": {
+        "desc": "Description of room.",
+        "north": "Small Shop",
+        "west": "Town Square",
+        "east": "Castle Gates",
+        "ground": []
+    },
+    "Small Shop": {
+        "desc": "We sell donuts.",
+        "south": "Eastern Town Street",
+        "west": "Northern Town Street",
+        "ground": []
+    },
+    "Town Gates": {
+        "desc": "a.",
+        "north": "Plains",
+        "south": "Town Square",
+        "west": "Idel Forest Edge",
+        "ground": [
+            "Nice Sword"
+        ]
+    },
+    "Church": {
+        "desc": "Description of room.",
+        "north": "Town Square",
+        "south": "Great Lake Shore",
+        "ground": []
+    },
+    "Castle Gates": {
+        "desc": "Description of room.",
+        "west": "Town Square",
+        "ground": []
+    },
+
+
+    "Plains": {
+        "desc": "Green hills as far as the eye can see.",
+        "north": "Monster Arena",
+        "west": "Idel Forest Edge",
+        "south": "Town Gates",
+        "enemies": [], "spawnlist": ["Slime","Slime","Slime"],
+        "ground": []
+    },
+    "Monster Arena": {
+        "desc": "You can fight monsters here. The command \"battle\" should be available.",
+        "south": "Plains",
+        "enemies": ["Slime","Wolf","Wasp","Boar"], "spawnlist": ["Slime","Wolf","Wasp","Boar"],
+        "ground": []
+    },
+
+    "Idel Forest Edge": {
+        "desc": "Description of room.",
+        "north": "Plains",
+        "west": "Idel Forest 1",
+        "enemies": [], "spawnlist": ["Slime","Slime"], "random": 1,
+        "ground": []
+    },
+    "Idel Forest 1": {
+        "desc": "Description of room.",
+        "north": "Idel Forest 2",
+        "south": "Idel Forest Edge",
+        "west": "Idel Forest 3",
+        "enemies": [],"spawnlist": ["Slime","Wolf","Wolf"], "random": 1,
+        "ground": []
+    },
+    "Idel Forest 2": {
+        "desc": "Description of room.",
+        "north": "Mawning River near Cave",
+        "south": "Idel Forest 1",
+        "enemies": ["Wasp","Wasp"], "spawnlist": ["Wasp","Wasp","Wasp","Wasp","Wolf","Wolf"], "random": 1,
+        "ground": []
+    },
+    "Idel Forest 3": {
+        "desc": "Down a cliff, you can see a bit of the Great Lake.",
+        "south": "Great Lake Shore",
+        "west": "Idel Forest Clearing",
+        "east": "Idel Forest 1",
+        "enemies": [], "spawnlist": ["Slime","Wolf","Wolf"], "random": 1,
+        "ground": []
+    },
+    "Idel Forest Clearing": {
+        "desc": "desvripiuytr",
+        "north": "Mawning River Meander",
+        "east": "Idel Forest 3",
+        "west": "Idel Forest 4",
+        "ground": []
+    },
+    "Idel Forest 4": {
+        "desc": "a",
+        "north": "Idel Forest Pond",
+        "west": "Idel Forest Clearing",
+        "east": "WIP Stone Shore",
+        "enemies": [], "spawnlist": ["Slime","Wolf","Wolf"], "random": 1,
+        "ground": []
+    },
+    "Idel Forest Pond": {
+        "desc": "a",
+        "north": "Mt. Brigid Southern Path 1",
+        "west": "Idel Forest 4",
+        "enemies": [], "spawnlist": ["Slime","Wolf","Wolf"], "random": 1,
+        "ground": []
+    },
+    "Mawning River Meander": {
+        "desc": "There\"s plenty of fresh water here.",
+        "west": "Mawning River Affluent",
+        "south": "Idel Forest Clearing",
+        "east": "Mawning River near Cave",
+        "ground": []
+    },
+
+    "Mawning River near Cave": {
+        "desc": "Description of room.",
+        "north": "Mawning River Cascade",
+        "south": "Mawning River Meander",
+        "west": "WIP Mawning Cave Entrance",
+        "east": "Idel Forest 2",
+        "ground": []
+    },
+    "Mawning River Cascade":{
+        "desc": "The current is too strong and margins too steep to climb further north.",
+        "south": "Mawning River near Cave",
+        "ground": []
+    },
+    "Mt. Brigid Sourthern Path 1":{
+        "desc": "a",
+        "north": "Mt. Brigid Sourthern Path 2",
+        "south": "Idel Forest Pond",
+        "enemies": [], "spawnlist": ["Boar","Boar","Boar"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Sourthern Path 2":{
+        "desc": "a",
+        "north": "Mining Outpost",
+        "south": "Mt. Brigid Southern Path 1",
+        "enemies": [], "spawnlist": ["Boar","Goblin","Goblin","Goblin"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Western Path":{
+        "desc": "a",
+        "west": "Mining Outpost",
+        "east": "Mawning River Source",
+        "ground": []
+    },
+    "Mawning River Source":{
+        "desc": "a",
+        "west": "Mt. Brigid Western Path",
+        "east": "Mt. Brigid Eastern Path",
+        "north": "Mt. Brigid Northern Path 1",
+        "south": "Mawning River Current",
+        "ground": []
+    },
+    "Mawning River Current":{
+        "desc": "If you fall with the cascade, you probably won't be able to climb back up.",
+        "north": "Mawning River Source",
+        "south": "Mawning River Cascade",
+        "ground": []
+    },
+    "Mt. Brigid Northern Path 1":{
+        "desc": "a",
+        "north": "Mt. Brigid Northern Path 2",
+        "south": "Mawning River Source",
+        "enemies": [], "spawnlist": ["Goblin","Troll"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Northern Path 2":{
+        "desc": "a",
+        "south": "Mt. Brigid Northern Path 1",
+        "north": "Mt. Brigid Northern Path 3",
+        "enemies": [], "spawnlist": ["Goblin","Troll","Troll"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Northern Path 3":{
+        "desc": "a",
+        "south": "Mt. Brigid Northern Path 2",
+        "east": "Mt. Brigid Summit Trail",
+        "enemies": [], "spawnlist": ["Troll","Troll","Troll"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Summit Trail":{
+        "desc": "b",
+        "west": "Mt. Brigid Northern Path 3",
+        "up": "Mt. Brigid Summit",
+        "enemies": [], "spawnlist": ["Troll","Troll","Troll","Troll"], "random": 1,
+        "ground": []
+    },
+    "Mt. Brigid Summit":{
+        "desc": "Everything seems so small up here, even the Castle Town is but a dot in the landscape.",
+        "down": "Mt. Brigid Summit Trail",
+        "ground": []
+    },
+
+    "Mining Outpost":{
+        "desc": "a",
+        "east": "Mt. Brigid Western Path",
+        "north": "WIP Outpost Smith",
+        "west": "WIP Entrance to Mine",
+        "south": "Mt. Brigid Southern Path 2",
+        "ground": []
+    },
+
+
+    "Mawning River Affluent": {
+        "desc": "Where the river meets the Great Lake. You can see an old shack in the distance.",
+        "north": "Mawning River Meander",
+        "west": "Abandoned Shack",
+        "ground": []
+    },
+    "Great Lake Shore": {
+        "desc": "The backside of the Town Church is visible from here.",
+        "north": "Idel Forest 3",
+        "east": "Church",
+        "west": "Mawning River Affluent",
+        "south": "Great Lake Penninsula",
+        "ground": []
+    },
+    "Abandoned Shack": {
+        "desc": "Description of room.",
+        "north": "Mawning River Affluent",
+        "east": "Great Lake Penninsula",
+        "south": "WIP Mawning River Delta",
+        "west": "WIP Broken Pier",
+        "ground": []
+    },
+    "Great Lake Penninsula":{
+        "desc": "description",
+        "north": "WIP Great Lake Isle",
+        "east": "Great Lake Shore",
+        "west": "Abandoned Shack",
+        "ground": []
+    }
+}

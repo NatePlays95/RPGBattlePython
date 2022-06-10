@@ -1,0 +1,4 @@
+Nate|20|20|1|4|1|1|1|1|1|1|16
+Nice Sword|None
+Donut|
+Monster Arena

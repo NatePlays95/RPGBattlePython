@@ -1,0 +1,4 @@
+Alan|19|20|1|1|1|1|1|1|1|1|11
+Nice Sword|None
+Water Bottle|Donut|
+Plains
